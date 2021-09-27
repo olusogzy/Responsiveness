@@ -1,0 +1,524 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-class {
+    
+    background-color: #fff;
+    
+
+}
+
+
+.header-class-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 6rem;
+    padding: 1rem;
+    
+}
+
+
+.logo {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2rem;
+    color: #9ba497;
+    
+}
+
+
+.service-image {
+    
+    background-image: url(images/lady.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+
+}
+
+.service-image-container {
+    padding: 13rem 7rem 0 7rem;
+}
+
+
+
+.service-text {
+    font-family: 'Heebo', sans-serif;
+    color: white;
+
+}
+
+
+.service-text h3 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+
+.service-text h1 {
+    font-size: 7rem;
+    padding-bottom: 2rem;
+
+}
+
+.service-line {
+    background-color: #fff;
+    width: 50%;
+    height: 1rem;
+}
+
+
+.icon-service-image {
+    display: flex;
+    margin: 2rem 0 0 0;
+
+}
+
+.icon-image img{
+margin-right: 8rem;
+}
+
+
+.icon-image p {
+    color: white;
+    padding-top: 1.5rem;
+    font-family: 'Barlow', sans-serif;;
+}
+
+
+
+
+.select-section {
+    background-color: #ebf1e8;
+    
+    
+}
+
+.select-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10rem;
+    width: 100%;
+
+}
+
+
+.select-section h5 {
+    color: #b8bdb6;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+}
+.select-section h2 {
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 3rem;
+    padding: 0,8rem 0;
+
+
+}
+
+.page-class {
+    padding: 1rem 8rem;
+}
+.select-section p {
+
+    font-size: larger;
+    font-family: 'Heebo', sans-serif;
+    padding: 1rem 0;
+    
+}
+
+.button-container {
+    margin: 1.2rem;
+    border: 0;
+    
+}
+
+.button-container button {
+    background-color: #cd1f25;
+    color: white;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 0.2rem;
+}
+
+
+
+.help-select {
+    font-family: 'Heebo', sans-serif;
+}
+
+.help-select-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 10rem;
+}
+
+
+
+.help-select-one {
+    width: 48%;
+    
+}
+
+
+
+.help-select-one img {
+    width: 100%;
+    
+}
+
+.help-select-one p {
+    padding: 4rem;
+
+
+}
+
+.help-select-one h2 {
+    padding-top: 3rem;
+    
+}
+
+.help-select-one h3 {
+    color: red;
+    padding: 1.3rem 0;
+    margin-bottom: 2rem;
+}
+    
+
+.quality {
+    background-color: #ebf1e8;
+}
+
+.quality-select {
+    display: flex;
+    height: 500px;
+}
+
+.quality-div-image {
+    width: 50%;
+    background-image: url(images/man1.PNG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.quality-div-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quality-div-text h1 {
+    font-size: 4rem;
+    
+    
+}
+
+
+.quality-div-text p {
+    margin: 2rem 0;
+    font-weight: 0.6rem;
+
+}
+
+.quality-button button{
+    background-color: #991015;
+    color: white;
+    padding: 1.2rem 2.5rem;
+    border: 0;
+    border-radius: 0.2rem;   
+}
+
+.our-service {
+    padding: 4rem 7rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.our-service-container h2 {
+    font-size: 3rem;
+}
+.our-service-icon-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.div-services {
+    margin: 1.5rem 4rem 1rem 1rem;
+
+}
+
+.div-services h3{
+    font-size: 1.5rem;
+    margin: 1.3rem 0;
+}
+
+.div-services p {
+    font-style: italic;
+    line-height: 2rem;
+}
+.div-service-image {
+    margin: 35px 0 10px 0;
+    background-color: #f00000;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.div-service-image img{
+    width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+
+}
+
+
+
+
+.plumbing {
+    background-color: rgb(7, 46, 119);
+}
+
+.plumbing-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 10rem;
+
+}
+
+
+.div-plumbing {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    width: 45%;
+    
+    
+}
+
+.div-plumbing h6 {
+    margin-top: 80px;
+    font-size: 1rem;
+
+}
+
+.div-plumbing h1 {
+    margin-top: 5px;
+    font-size: 5rem;
+}
+
+
+.div-plumbing-image {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    
+    
+}
+
+.pictures {    
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.pictures img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+
+.to-do {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.to-do-container h2 {
+    padding: 3rem 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+
+.to-do-container p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+
+
+.to-do-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+.book-now button {
+    background-color: #c5171d;
+    color: white;
+    padding: 1rem 2.2rem;
+    border: 1px solid #c5171d;
+    border-radius: 2px;
+    margin-right: 1rem;
+
+}
+
+
+.call-us button {
+    background-color: white;
+    padding: 1rem 2.2rem;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+
+.footer {
+    background-color: rgb(58, 57, 57);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+
+.footer-div p {
+    margin: 2.5rem 0 4rem 0;
+
+}
+
+
+.footer-div-a {
+    margin: 2rem 0;
+}
+
+
+.footer-div-a a {
+    color: #00CCCC;
+}
+
+
+
+@media(max-width: 769px) {
+
+    .service-image {
+        width: 100%;
+    }
+    .page-class {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+    .select-section p {
+        width: 100%;
+    }
+    .help-select-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .help-select-one {
+        width: 100%;
+    }
+    .help-select-one p {
+        padding: 3rem 1rem;
+    }
+    
+    .our-service-icon-container {
+        flex-direction: column;
+    }
+    .plumbing-container {
+        flex-direction: column;
+    }
+    .div-plumbing {
+        width: 100%;
+    }
+    .div-plumbing-image {
+        margin-top: 3rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    .pictures {
+        width: 100%;
+    }
+
+    }
+
+    @media(max-width: 425px) {
+        .service-image {
+            background-size: cover;
+            
+        }   
+
+        .service-image-container {
+            padding-top: 4rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        .service-text h3 {
+            font-size: 2rem;
+        }
+        .service-text h1 {
+            font-size: 4rem;
+        }
+        .service-line {
+            width: 80%;
+        }
+        .icon-service-image {
+            display: none;
+        }
+
+        .select-section-container {
+            padding: 10rem 1rem;
+        }
+
+        .help-select-container {
+            padding: 4rem 1rem;
+
+        }
+        .quality-div-text h1{
+            font-size: 2.5rem;
+        }
+
+        .our-service {
+            padding: 4rem 2rem;
+        }
+
+        .plumbing-container {
+            padding: 4rem 2rem;
+        }
+
+        .div-plumbing h1 {
+            font-size: 3rem;
+        }
+    }
