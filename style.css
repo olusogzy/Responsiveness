@@ -476,6 +476,7 @@ margin-right: 8rem;
         flex-direction: column;
     }
     .plumbing-container {
+        padding: 4rem 3rem;
         flex-direction: column;
     }
     .div-plumbing {
@@ -484,10 +485,11 @@ margin-right: 8rem;
     .div-plumbing-image {
         margin-top: 3rem;
         width: 100%;
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
     }
     .pictures {
-        width: 100%;
+        width: 48%;
     }
 
 }
@@ -533,10 +535,21 @@ margin-right: 8rem;
         padding: 4rem 2rem;
     }
     .plumbing-container {
-        padding: 4rem 2rem;
+        padding: 3rem 2rem;
+    }
+    .div-plumbing h6 {
+        margin-top: 40px;
     }
     .div-plumbing h1 {
         font-size: 3rem;
+    }
+
+    .div-plumbing-image {
+        flex-direction: column;
+    }
+
+    .pictures {
+        width: 100%;
     }
 
 }
